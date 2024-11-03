@@ -19,9 +19,9 @@ npx cypress open
 
 ## Explicando a estrutuda de organização
 
-Na pasta e2e está a main do projeto, onde é executado de fato os teste, nela eu fiz o import das paginas e dos dados. 
+Na pasta e2e está a main do projeto, onde é executado de fato os teste, nela eu fiz o import das páginas e dos dados. 
 Na pasta fixture\users está o json dos dados de usuários
-Na pasta pages, consta as paginas de script, separadas por campo:
+Na pasta pages, consta as páginas de script, separadas por campo:
 
 **addCarrinhoPage.js** com os comandos de adicionar o produto selecionado ao carrinho pela função addCarrinho() e comando para finalizar o pedido pela função finalizaPedido()
 nela estão os seletores dos botões para adicionar ao carrinho, selecionar: voltagem, endereço, prazo de entrega, forma de pagamento e os botões de confirmação de finalização de pedido.
